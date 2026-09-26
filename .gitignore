@@ -1,0 +1,31 @@
+# Config backups. These are full copies of openclaw.json, which holds
+# plaintext API keys, the bot token, and the gateway secret.
+*.bak
+*.bak2
+
+# The live OpenClaw config. Plaintext secrets. Never commit this.
+# The sanitised version is config/openclaw.example.json5
+openclaw.json
+
+# Security audit output. Can contain paths, identifiers, and config detail.
+audit.txt
+
+# Environment files. Where the API keys are exported from.
+.env
+
+# Screenshots holding secrets. See screenshots/README.md - the policy is to
+# withhold such images entirely rather than blur them. These patterns are a
+# safety net in case one is ever staged by accident.
+screenshots/*SECRET*
+screenshots/*SENSITIVE*
+
+# --- General noise ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+*.swp
