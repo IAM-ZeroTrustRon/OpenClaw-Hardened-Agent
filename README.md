@@ -1,5 +1,7 @@
 # OpenClaw Hardened Agent ("Zion")
 
+[Portfolio index](https://github.com/IAM-ZeroTrustRon/GRC-IAM-Portfolio) · **Repository role:** Personal AI-agent hardening lab.
+
 A personal AI agent, self-hosted and locked down.
 
 This repo documents how I built it, how I hardened it, what the security audit
